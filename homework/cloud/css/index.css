@@ -1,0 +1,258 @@
+/*顶部导航*/
+.top{
+    width: 1204px;
+    height: 100px;
+    margin: 0 auto;
+}
+.top .list_l{
+    float: left;
+}
+.top img{
+    margin-top: 20px;
+}
+.top .list_r{
+    float: right;
+}
+.top .list_r li{
+    display: block;
+    height: 100px;
+    float: left;
+    line-height: 100px;
+    margin-left: 40px;
+}
+.top a{
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+}
+.top .spec_f{
+    color: blue;
+}
+
+.top a:hover{
+    color: blue;
+}
+.banner img{
+    width: 100%;
+}
+
+/*正文部分*/
+.content{
+    width: 1000px;
+    height: 80px;
+    border-top: 1px solid #cccccc;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 50px;
+}
+.content .con{
+    height: 50px;
+    width: 158px;    
+    background-color: white;  
+    position: absolute;
+    left: 50%;
+    margin-left:-79px;
+    margin-top: -12px;
+}
+.content p{
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;   
+}
+.content .con .spec_t{
+    font-weight: 700;
+}
+.content .d_con{
+    margin-top: 40px;
+}
+.content .d_con p{
+    color: #666666;
+    font-size: 12px;
+}
+/*服务列表*/
+.serve{
+    width: 1054px;
+    height: 508px;
+    margin: 26px auto;
+}
+
+/*左边*/
+.serve .list_l{
+    display: block;
+    width: 323px;
+    height: 506px;
+    border: 1px solid #cccccc;
+    text-align: center;
+    float: left;
+    margin-left: 0;
+    box-sizing: border-box;
+}
+.serve .list_l img{
+    margin-top: 49px;
+}
+.serve h2{
+    margin-top: 20px;
+}
+.serve .text_o{
+    margin-left: 41px;
+    margin-right: 41px;
+    margin-top: 31px;
+    color: #7d7d7d;
+}
+
+/*中间*/
+.serve .list_2{
+    display: block;
+    width: 323px;
+    height: 506px;
+    border: 1px solid #cccccc;
+    text-align: center;
+    float: left;
+    box-sizing: border-box;
+}
+.serve .list_2 img{
+    margin-top: 49px;
+}
+.serve .text_tw{
+    margin-left: 41px;
+    margin-right: 41px;
+    margin-top: 31px;
+    color: #7d7d7d;
+}
+
+/*右边*/
+.serve .list_3{
+    display: block;
+    width: 323px;
+    height: 506px;
+    border: 1px solid #cccccc;
+    text-align: center;
+    float: left;
+    box-sizing: border-box;
+}
+.serve .list_3 img{
+    margin-top: 49px;
+}
+.serve .text_th{
+    margin-left: 41px;
+    margin-right: 41px;
+    margin-top: 31px;
+    color: #7d7d7d;
+}
+
+.serve li{
+    margin-right: 28px;
+}
+/*单独跳转*/
+.serve .list a{
+    display: block;
+    width: 148px;
+    height: 36px;
+    border: 1px solid #ff9412;
+    text-align: center;
+    line-height: 36px;
+    font-size: 12px; 
+    border-radius: 5px;
+    margin-left: 83px;
+    margin-top: 30px;
+    color: #ff9412;       
+}
+.serve .list a:hover{
+    background-color: #ff9412;
+    color: white;
+}
+
+
+/*经典案例图片部分*/
+.cont_img{
+    width: 1054px;
+    height: 211px;
+    margin: 26px auto;
+}
+.cont_img li{
+    margin-right: 28px;
+    float: left;
+}
+
+/*媒体部分*/
+.media{
+    width: 1076px;
+    height: 244px;
+    margin: 0 auto;
+}
+.media .row{
+    height: 80px;
+    border-bottom: 1px dashed gray;
+}
+.media .row li{
+    width: 214px;
+    height: 60px;
+    border-right: 1px dashed gray;
+    float: left;
+    text-align: center;
+    padding-top: 22px;
+}
+.media .row .spec_la{
+    border-right: none;
+}
+.media .spec_row{
+    height: 80px;
+}
+.media .spec_row li{
+    width: 214px;
+    height: 60px;
+    border-right: 1px dashed gray;
+    float: left;
+    text-align: center;
+    padding-top: 25px;
+}
+.media .spec_row .spec_la{
+    border-right: none;
+}
+
+/*底部*/
+.footer{
+    width: ;
+    height: 165px;
+    background-color: black;
+}
+
+.footer .foot_list{
+    width: 540px;
+    height: 60px;
+    margin: 40px auto;
+}
+.footer li{
+    display: block;
+    height: 100px;
+    float: left;
+    line-height: 100px;
+    margin-left: 10px;
+}
+.footer a{
+    font-size: 12px;
+    color: white;
+}
+
+.footer a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.footer span{
+    display: block;
+    float: left;
+    line-height: 100px;
+    margin-left: 10px;
+    color: white;
+    font-size: 11px;
+}
+
+.footer p{
+    display: block;
+    width: 480px;
+    color: white;
+    font-size: 12px;
+    color: #d0d0d0;
+    margin: 0 auto;
+}

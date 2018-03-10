@@ -1,0 +1,438 @@
+/*顶部、头部和底部公共的样式*/
+
+
+                                        /*京东顶部样式start*/
+.jd-event{
+    height: 80px;
+    background: #AF150B;
+}
+.jd-event .inner{
+    position: relative;
+}
+/*年货节图标*/
+.jd-event .inner .nhj{
+    position: absolute;
+    top:0;
+    left:0;
+}
+/*右上角的小图标*/
+.jd-event .inner i{
+    width: 20px;
+    height: 20px;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top:5px;
+    right: 0;
+    color: white;
+    line-height: 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+                                       /*顶部样式end*/
+
+
+                                      /*简短导航start*/
+/*顶部导航背景设定*/
+.top_nav {
+    width: 100%;
+    height: 30px;
+    border-bottom: solid 1px #dddddd;
+    background-color: #e3e4e5;
+}
+/*顶部导航左边*/
+.top_nav .dw{
+    height: 30px;
+    line-height: 30px;
+}
+/*顶部导航定位图标设定*/
+.top_nav .dw i{
+    float: left;
+    margin-left: 210px;
+    line-height: 30px;
+    color: red;
+}
+/*左浮动*/
+.fl{
+    float: left;
+}
+/*右浮动*/
+.fr{
+    float: right;
+}
+/*北京*/
+.top_nav .dw span{
+    display: block;
+    float: left;
+}
+/*顶部右边简短导航*/
+/*整个简短导航右浮动*/
+.top_nav .top_list{
+    float: right;
+    position: relative;
+}
+/*li标签转块元素并举中*/
+.top_nav .top_list li{
+    float: left;
+    display: block;
+    line-height: 30px;
+}
+/*设定列表中的a标签*/
+.top_nav .top_list a{
+    font-size: 13px;
+    color: #666666;
+}
+/*a标签hover状态*/
+.top_nav .top_list a:hover{
+    color: #f10210;
+}
+/*红色免费注册*/
+.top_nav .top_list .zc{
+    color: #f10215;
+}
+/*列表中的竖线*/
+.top_list .shu{
+width: 1px;
+height: 11px;
+background-color: #ccc;
+margin: 11px 14px 0;
+}
+/*最右边的二维码*/
+.top_list span{
+    width: 60px;
+    height: 60px;
+    display: block;
+    background:url("../images/sprite.head.png") -195px -45px;
+    left: 50%;
+    margin-left: -4px;
+}
+/*二维码上的三角形 伪元素*/
+.top_nav .top_list .last::after{
+    content: "";
+    border: 5px solid #e3e4e5;
+    position: absolute;
+    border-bottom-color: white;
+    right: 25px;
+    margin-top: -68px;
+}
+                                            /*简短导航end*/
+
+
+                                            /*搜索框部分start*/
+/*头部搜索框部分定区*/
+.header{
+    height:140px;
+    width: 100%;
+}
+/*相对定位*/
+.header .w{
+    position: relative;
+}
+/*左边logo*/
+.header .logo{
+    position: relative;
+}
+/*logo部分内容隐藏*/
+.header  .logo a{
+    display: block;
+    float: left;
+    width: 190px;
+    height: 171px;
+    background-image: url(../images/logo.v2.png);
+    background-color: white;
+    border:1px gray solid;
+    position: absolute;
+    top: -31px;
+    box-shadow: 2px 0 10px #dfdfdf;
+    text-indent: -9999em;
+    overflow: hidden;
+}
+/*中间搜索框*/
+.header .search{
+    width:548px;
+    height: 34.8px;
+    border: 1px red solid;
+    position: absolute;
+    left: 320px;
+    top: 25px;
+}
+/*搜索框部分input标签*/
+.header .search input{
+    width: 488px;
+    height: 35px;
+    padding-left:10px;
+}
+/*搜索框部分button按钮*/
+.header .search button{
+    width: 50px;
+    height: 33px;
+}
+/*button按钮加字体图标*/
+.header .search button i{
+    display: block;
+    width:50px;
+    height: 35px;
+    font-size: 18px;
+    background-color: red;
+    line-height: 35px;
+    color: white;
+}
+/*小照相机*/
+.header .search span{
+    width:20px;
+    height:16px;
+    position: absolute;
+    right: 65px;
+    top: 9px;
+    cursor: pointer;
+    background: url(../images/sprite-photo-search.png) ;
+}
+/*小照相机hover状态*/
+.header .search span:hover{
+    background-image: url(../images/sprite-photo-search.png);
+    background-position: -30px 0;
+}
+/*热搜部分定区*/
+.header .hotwords{
+    height:16px;
+    position: absolute;
+    left: 320px;
+    top: 68px;
+}
+/*热搜列表li标签左浮动并设间距*/
+.header .hotwords li{
+    float: left;
+    margin-right: 10px;
+}
+/*特殊颜色部分*/
+.header .hotwords li span{
+    color: #AF150B;
+}
+/*主导航部分定区*/
+.header .nav{
+    position: absolute;
+    left:230px;
+    top: 100px;
+}
+/*主导航列表li左浮动*/
+.header .nav li{
+    float: left;
+    margin-right: 30px;
+}
+/*列表中的a标签字体设置*/
+.header .nav a{
+    font-size: 16px;
+    font-weight:700;
+}
+/*抢红包图片设置*/
+.header .nav img{
+    width: 35px;
+    left: 410px;
+    top: -10px;
+    position: absolute;
+}
+/*购物车*/
+.header .car{
+    width:188px;
+    height: 33px;
+    border: 1px solid #e3e4e5;
+    position: absolute;
+    top: 25px;
+    left: 900px;
+    background-color: #fff;
+}
+.header .car span{
+    display: block;
+    width:17px;
+    height: 16px;
+    position: absolute;
+    left: 56px;
+    top: 6px;
+    font-size: 14px;
+}
+.header .car i{
+    color: red;
+}
+.header .car  a{
+    display: block;
+    margin-left:75px;
+    line-height: 33px;
+    color: red;
+}
+/*购物车中右上角的小圆*/
+.header .car .spe{
+    min-width: 9px;
+    height: 15px;
+    background-color: red;
+    border-radius: 7px;
+    position: absolute;
+    left: 140px;
+    top: 5px;
+    color: white;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: center;
+    padding: 0 3px;
+}
+/*搜索框右下角图片*/
+.header .pic_r{
+    width: 184px;
+    height: 40px;
+    background-image: url("../images/599645adN1ebd4dce.gif");
+    position: absolute;
+    right: 0;
+    bottom: -122px;
+}
+                                             /*搜索框部分end*/
+
+                                             /*底部start*/
+/*底部*/
+.footer{
+    width:100%;
+    height: 500px;
+    overflow: hidden;
+}
+/*四大优点*/
+.footer .footer_top{
+    height: 110px;
+}
+.footer .footer_top li{
+    width: 297px;
+    float: left;
+}
+.footer .footer_top li div{
+    width: 225px;
+    margin-left: 30px;
+    margin-top: 38px;
+}
+.footer .duo h5{
+    background-image: url("../images/dkhs.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 43px;
+    width: 36px;
+    text-indent: -9999em;
+    overflow: hidden;
+}
+.footer .duo p{
+    margin-left: 10px;
+    line-height: 43px;
+    color: #444444;
+    font-size: 18px;
+    font-weight:700;
+}
+
+/*分界线*/
+.footer .divsion{
+    width: 100%;
+    height: 1px;
+    background-color: #dedede;
+}
+
+/*帮助中心*/
+.help{
+    height: 200px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.help .help_l dl{
+    float: left;
+    width: 198px;
+    height: 160px;
+    padding:20px 0;
+}
+.help .help_l dl h6{
+    font-size: 14px;
+    font-weight: 700;
+    color: #666666;
+    height: 30px;
+}
+.help .help_l dl dd{
+    font-size: 11px;
+    color: #666666;
+    height: 22px;
+}
+.help .help_r{
+    margin-top: 20px;
+    width: 181px;
+    height: 150px;
+    padding: 0 8px;
+    background-image: url(../images/dt.png);
+    background-position: 0 0;
+}
+.help .help_r h6{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight:700;
+}
+.help .help_r p{
+    font-size: 11px;
+    margin-top: 22px;
+}
+.help .help_r a{
+    line-height: 18px;
+}
+
+/*底部导航*/
+.footer .footer_nav{
+    height: 46px;
+}
+.footer .footer_nav ul{
+    display: block;
+    margin: 0 53px;
+}
+.footer .footer_nav li{
+    display: block;
+    float: left;
+    margin-right: 10px;
+    line-height: 46px;
+}
+
+/*版权部分*/
+.footer .copyright{
+    height: 85px;
+}
+.footer .copyright p{
+    display: block;
+    height: 22px;
+    text-align: center;
+}
+
+/*最下方图标*/
+.footer .footer_tb{
+    width: 666px;
+    height: 32px;
+    margin: 12px auto;
+}
+.footer .footer_tb a{
+    display: block;
+    width: 103px;
+    height: 32px;
+    float: left;
+    margin-right: 8px;
+}
+/*应用精灵图部分*/
+.footer .footer_tb .one{
+    background-image:url("../images/ico_footer.png");
+    background-position: 0 -151px;
+}
+.footer .footer_tb .two{
+    background-image:url("../images/ico_footer.png");
+    background-position: -104px -151px;
+}
+.footer .footer_tb .three{
+    background-image:url("../images/ico_footer.png");
+    background-position: 0 -184px;
+}
+.footer .footer_tb .four{
+    background-image:url("../images/ico_footer.png");
+    background-position: -104px -184px;
+}
+.footer .footer_tb .five{
+    background-image:url("../images/ico_footer.png");
+    background-position: 0 -217px;
+}
+.footer .footer_tb .six{
+    background-image:url("../images/ico_footer.png");
+    background-position: -104px -217px;
+}

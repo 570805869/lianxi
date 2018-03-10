@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    width: 1226px;
+    height: 460px;
+    position: relative;
+    left: 200px;
+    top:50px;
+}
+.box .list{
+    width: 300px;
+    height: 460px;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    top: 0px;
+}
+.box .list a{
+    width: 300px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    display: block;
+
+}
+.box .list li{
+    list-style-type: none;
+    height: 59px;
+}
+
+
+.box .left{    
+    position: absolute;
+    top: 200px;
+    left: 301px;
+    background-color: rgb(0,0,0,.5);
+
+}
+.box a{
+    width: 50px;
+    height: 50px;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+.box a:hover{
+    background-color: orange;
+}
+.box .right{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0,0,0,.5);
+    position: absolute;
+    top: 200px;
+    right: 0;
+}
+.box .r li{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 100px;
+    float: left;
+    list-style-type: none;
+    margin-right: 10px;
+}
+.box .r{
+    position: absolute;
+    right: 100px;
+    bottom: 40px;
+}
+
+.box .r li:hover{
+    background-color: rgb(0,0,0,.5);
+}

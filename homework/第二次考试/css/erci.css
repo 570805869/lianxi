@@ -1,0 +1,232 @@
+.top_t{
+    height: 30px;
+    color: #aaaaaa;
+    font-size: 12px;
+    line-height: 30px;
+
+}
+.top{
+    height: 80px;
+    width: 100%;
+    background-color: #2e3340;
+}
+.top .logo{
+    line-height: 80px;
+    float: left;
+}
+.top .list{
+    float: left;
+}
+.top li{
+    display: block;
+    float: left;
+    margin-right: 17px;
+    line-height: 80px;
+}
+.top a{
+    color: #cccccc;
+}
+.top .nav .spec_c{
+    color: white;
+}
+
+/*路径*/
+.path{
+    height: 56px;    
+}
+.path li{
+    display: block;
+    float: left;
+    line-height: 56px;
+    margin-right: 7px;
+}
+.path li a{
+    color: #323846;
+}
+
+/*内容*/
+.content{
+    height: 562px;
+    /*background-color: pink;*/
+    margin-top: 20px;
+    overflow: hidden;
+}
+.content .cont_b{
+    margin-left: 45px;
+    margin-top: 87px;
+    height: 376px;
+    border-left: 1px solid #5b606b;
+    float: left;
+    width: 1155px;
+}
+
+.content h2{
+    font-weight: 400;
+    margin-left: 18px;
+    margin-top: 12px;
+}
+.content li{
+    float: left;
+}
+.content .small_b{
+    display: block;
+    width: 265px;
+    height: 253px;
+    margin-left: 20px;
+    margin-top: 34px;
+}
+.content .qd{
+    width: 265px;
+    height: 79px;
+    background-color: #f6f6f6;
+    overflow: hidden;
+}
+.content .qdyd{
+    color: black;
+    font-size: 12px;
+    margin-top: 19px;
+    margin-left: 10px;
+}
+
+.content .dow{
+    color: #999999;
+    font-size: 11px;
+    margin-left: 10px;
+    margin-top: 19px;
+    float: left;
+}
+
+.content .num{
+    color: #999999;
+    font-size: 11px;
+    margin-right: 10px;
+    margin-top: 19px; 
+    float: right;
+}
+
+.w .more{
+    font-size: 13px;
+    margin-top: 34px;
+    margin-left: 500px;
+    color: #999999;
+}
+.w .more a{
+    color: black;
+}
+
+/*结尾*/
+.footer{
+    height: 358px;
+    width: 100%;
+    background-color: #2e3340;
+    margin-top: 53px;
+}
+.footer .lb{
+    width: 430px;
+    background-color: green;
+}
+.footer dl{
+    float: left;
+    color: white;
+    margin-right: 79px;
+    float: left;     
+}
+.footer dd{
+    display: block;
+    margin-left: 0;
+    color: #b0bcd0;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.footer .f_center_l{
+    width: 120px;
+    height: 164px;
+    margin-top: 16px;
+    display: inline-block;
+    float: left;
+    margin-right: 68px;
+}
+.f_center_l span{
+    display: block;
+    width: 120px;
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff;    
+}
+.f_center_l img{
+    width: 120px;
+    display: block;
+    margin-top: 28px;
+} 
+
+/*分界线*/
+.footer .stright{
+    height: 193px;
+    width: 1px;
+    background-color: #48526c;
+    float: left;
+    margin-top: 16px;
+}
+/*精灵图*/
+.footer .jlt{
+    width: 231px;
+    height: 168px;
+    float: left;
+    margin-top: 45px;
+    margin-left: 56px;
+}
+.footer .ll{
+    display: block;
+    float: left;
+    width: 55px;
+    height: 55px;
+    background-image: url(../images/icon.png);
+    background-repeat: no-repeat;
+    background-position: -78px -480px;
+    margin-right: 25px;
+}
+.footer .mm{
+    display: block;
+    float: left;
+    width: 56px;
+    height: 58px;
+    background-image: url(../images/icon.png);
+    background-repeat: no-repeat;
+    background-position: 0 -384px;
+    margin-right: 25px;
+}
+.footer .rr{
+    display: block;
+    float: left;
+    width: 55px;
+    height: 57px;
+    background-image: url(../images/icon.png);
+    background-repeat: no-repeat;
+    background-position: -78px -382px;
+    margin-right:15px;
+}
+.jlt .jlt_tt{
+    margin-top: 34px;
+}
+.jlt .jlt_text li{
+    font-size: 12px;
+    color: #b0bcd0;
+}
+
+.footer .bottom_text{
+    font-size: 12px;
+    color: #b0bcd0;
+    height: 15px;
+    width: 100%;
+    margin: 20px 400px;
+}
+
+.footer .bottom_text_t p{
+
+    font-size: 12px;
+    color: #b0bcd0;
+    height: 15px;
+    margin-top: 20px;
+    margin-left: 500px;
+}

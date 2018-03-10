@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        .box{
+            width: 300px;
+            height: 300px;
+            margin: 150px auto;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: all 6s linear;
+        }
+        .box:hover{
+            transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg)
+        }
+        .public{
+            width: 300px;
+            height: 300px;
+            position: absolute;
+        }
+        .left{
+            background-color: black;
+            transform: rotateY(90deg) translateZ(-150px);
+        }
+        .right{
+            background-color: yellow;
+            transform: rotateY(90deg) translateZ(150px);
+        }
+        .top{
+            background-color: green;
+            transform: rotateX(90deg) translateZ(150px);
+        }
+        .bottom{
+            background-color: red;
+            transform: rotateX(90deg) translateZ(-150px);
+        }
+        .before{
+            background-color: pink;
+            transform: translateZ(150px);
+        }
+        .back{
+            background-color: orange;
+            transform: translateZ(-150px);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="public left"></div>
+        <div class="public right"></div>
+        <div class="public top"></div>
+        <div class="public bottom"></div>
+        <div class="public before"></div>
+        <div class="public back"></div>
+    </div>
+</body>
+</html>

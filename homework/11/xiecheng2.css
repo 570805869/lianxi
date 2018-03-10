@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.top{
+    width: 100%;
+    display: flex;
+}
+.top a{
+    flex: 1;
+}
+.top a img{
+    width: 100%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.content .public{
+    height: 90px;
+    margin: 5px;
+    background-color: pink;
+    border-radius: 10px;
+    flex: 1;
+    display: flex;
+}
+.content .public .apublic{
+    flex: 1;
+    border-right: 1px solid white;
+}
+.content .public div:last-child{
+    border: 0 none;
+}
+.content .public .apublic .up{
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    border-bottom: 1px solid white;
+}
+.content .public .apublic .bot{
+    line-height: 44px;
+    text-align: center;
+}

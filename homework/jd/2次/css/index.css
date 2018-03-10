@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #e01222;
+}
+
+                                                 /*广告部分start*/
+/*中间广告部分*/
+.banner{
+    height: 482px;
+    width: 100%;
+    background: url("../images/dn.png") center no-repeat;
+    margin-top: 3px;
+}
+
+/*左边列表*/
+.banner .l_list{
+    width: 190px;
+    height: 484px;
+    background-color: #fff;
+}
+.banner .l_list li{
+    display: block;
+    height: 30px;
+}
+/*代替了hover，改成actice 留给js使用*/
+.banner .l_list .active{
+    background-color: #f6f6f6;;
+}
+.banner .l_list a{
+    display: block;
+    font-size: 13px;
+    line-height: 30px;
+    margin-left: 18px;
+}
+
+/*中间的轮播图片*/
+.banner .m_img{
+    width:592px;
+    height: 469px;
+    margin-left: 10px;
+    position: relative;
+    margin-top: 10px;
+}
+/*平时多余图片隐藏*/
+.banner .m_img li{
+    display: none;
+}
+/*未来哪个轮播项显示出来就调用这个类选择器*/
+.banner .m_img .active{
+    display: block;
+}
+
+/*轮播上的小圆*/
+.banner .m_yuan{
+    position: absolute;
+    bottom: 24px;
+    left: 50px;
+}
+.banner .m_yuan li{
+    width:18px;
+    height:18px;
+    background-color: rgba(255,255,255,0);
+    float: left;
+    border-radius: 50%;
+    position: relative;
+    display: block;
+}
+.banner .m_yuan li::after{
+    width: 6px;
+    height: 6px;
+    content: "";
+    border: 2px solid #cccccc;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    margin-left: -5px;
+    top: 50%;
+    margin-top: -5px;
+}
+/*点击圆点以后的状态*/
+.banner .m_yuan .active{
+    background-color: rgba(255,255,255,0.5);
+}
+.banner .m_yuan .active::after{
+    width: 10px;
+    height: 10px;
+    border: none;
+    background: #fff;
+}
+
+
+
+/*右边的三个图片*/
+.banner .mr_shu{
+    width: 190px;
+    height: 469px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.banner .mr_shu li{
+    display: block;
+    width: 190px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+/*最右边的竖排包含精灵图*/
+.banner .r_jlt{
+    width: 190px;
+    height: 469px;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.banner .r_jlt .top{
+    width: 190px;
+    height: 160px;
+    background-color: white;
+    position: relative;
+    float: left;
+}
+/*头像部分*/
+.banner .top .touxiang {
+    width: 87px;
+    height: 87px;
+    position: absolute;
+    left: 50%;
+    margin-left: -43px;
+    margin-top: -10px;
+}
+.banner .top .touxiang img{
+    width: 65px;
+    border-radius: 50%;
+}
+.banner .top .touxiang span{
+    position: absolute;
+    width: 87px;
+    height: 87px;
+    right: 9px;
+    top: -7px;
+    background: url("../images/tx.png") -8px -9px;
+}
+/*文字部分*/
+.banner .r_jlt .top .dlzt {
+    margin-top: 72px;
+    text-align: center;
+}
+/*用户利益模块*/
+.banner .r_jlt .top .liyi {
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.banner  .liyi span {
+    float: left;
+    height: 25px;
+    border-radius: 13px;
+    box-shadow: 5px 5px 30px;
+}
+.banner  .liyi span a {
+    display: block;
+    line-height: 25px;
+    padding:0 10px;
+    border-radius: 13px;
+}
+/* 新人利益 */
+.banner  .liyi .xrfl {
+    margin-right: 10px;
+}
+.banner .liyi .xrfl a {
+    color:red;
+}
+/* PLUS会员 */
+.banner  .liyi .hy {
+    background: #363634;
+}
+.banner  .liyi .hy a {
+    color:#e5d790;
+}
+.banner  .liyi a:hover {
+    color: #fff;
+    background-color: red;
+}
+
+/*中间部分*/
+/*选项部分*/
+.banner .middle{
+    width: 190px;
+    height: 150px;
+    background-color: white;
+    float: left;
+}
+.banner .middle .item{
+    width: 190px;
+    height: 25px;
+    margin-top: 7px;
+    position: relative;
+}
+.banner .middle .item  .left,.xian,.xianyou{
+    display: block;
+    margin-left: 15px;
+}
+.banner .middle .item .xian {
+    color: #dfe0e1;
+}
+.banner .middle .item .you{
+    margin-right: 12px;
+}
+.banner .middle .item .heng{
+    width: 27px;
+    height: 2px;
+    background-color: #db192b;
+    position: absolute;
+    left: 13px;
+    top: 17px;
+}
+/*促销部分*/
+.banner .middle .cuxiao{
+    width: 160px;
+    height: 102px;
+    margin-left: 15px;
+    margin-top: 16px;
+    border-bottom: 1px solid black;
+}
+.banner .middle .cuxiao a{
+    font-size: 11px;
+}
+.banner .middle .cuxiao li{
+    display: block;
+    height: 22px;
+}
+
+
+/*底部精灵图部分*/
+.banner .down{
+    width: 190px;
+    height: 159px;
+    background-color: white;
+    float: left;
+}
+.banner .r_jlt .jlt{
+    margin-left: 23px;
+    margin-top: 26px;
+}
+.banner .r_jlt .jlt li{
+    display: block;
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+    margin-bottom: 26px;
+}
+.banner .r_jlt .jlt .icon1{
+    background: url("../images/service.png") -145px -42px;
+}
+
+.banner .r_jlt .jlt li span{
+    width: 12px;
+    height: 16px;
+    background-color: red;
+    position: absolute;
+    top:0;
+    right: 0;
+    line-height: 12px;
+    color:#fff;
+}
+.banner .r_jlt .jlt li span em{
+    border-left: 6px solid red;
+    border-right: 6px solid red;
+    border-top: 1px solid red;
+    border-bottom: 3px solid #fff;
+    position: absolute;
+}
+
+/*广告部分end*/
+
+

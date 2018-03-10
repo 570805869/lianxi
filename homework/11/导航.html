@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+         *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+         }
+        .box{
+            width: 700px;
+            height: 60px;
+            background-color: green;
+            margin: 150px auto;
+        }
+        .box li{
+            display: block;
+            float: left;
+            width: 100px;
+            height: 60px;
+            position: relative;
+            transition: all 1s linear;
+            cursor: pointer;
+            transform-style: preserve-3d;
+        }
+        .box li span{
+            position: absolute;
+            display: block;
+            width: 100%;
+            height: 100%;
+            line-height: 60px;
+            text-align: center;
+        }
+        .box li:hover{
+            transform: rotateX(-90deg);
+        }
+
+        .box li .one{
+            background-color: green;
+            transform: translateZ(30px);
+        }
+        .box li .two{
+            background-color: yellow;
+            transform: rotateX(90deg) translateZ(30px);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <ul>
+            <li>
+                <span class="one">文字</span>
+                <span class="two">web</span>
+            </li>
+            <li>
+                <span class="one">文字</span>
+                <span class="two">web</span>
+            </li>
+            <li>
+                <span class="one">文字</span>
+                <span class="two">web</span>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

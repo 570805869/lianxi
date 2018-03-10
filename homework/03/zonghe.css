@@ -1,0 +1,36 @@
+.title{
+    text-align: center;
+    font-family: "黑体";
+}
+.smt{
+    text-align: center;
+}
+.time{
+    color: #ADBDCE;
+}
+.pl{
+    color:#990000;
+}
+.sr{
+    color: red;
+    font-family: "黑体";
+    font-size: 14px;
+}
+.search{
+    color: #008000;
+    font-weight:bold;
+}
+span{
+    color: #3399CC;
+}
+p{
+    text-indent: 2em;
+    font-size: 18px;
+    font-family: "新宋体";
+    line-height: 28px;
+}
+.special{
+    font-family: "黑体";
+    font-weight: bold;
+    color: black;
+}

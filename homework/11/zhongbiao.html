@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        .box{
+            width: 300px;
+            height: 300px;
+            border: 1px solid red;
+            border-radius: 50%;
+            margin: 150px auto;
+            position: relative;
+        }
+        .box .public{
+            width: 1px;
+            height: 300px;
+            background-color: black;
+            position: absolute;
+            left: 50%;
+        }
+        .one{
+            transform: rotate(30deg);
+        }
+        .two{
+            transform: rotate(60deg);
+        }
+        .three{
+            transform: rotate(90deg);
+        }
+        .four{
+            transform: rotate(120deg);
+        }
+        .five{
+            transform: rotate(150deg);
+        }
+        .six{
+            transform: rotate(180deg);
+        }
+        .box .gai{
+            width: 280px;
+            height: 280px;
+            background-color: white;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        /*.box .center{
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background-color: black;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }*/
+        .h{
+            width: 6px;
+            height: 100px;
+            background-color: black;
+            position: absolute;
+            top: 50px;
+            left: 50%;
+            transform-origin: bottom;
+            animation: rotate 43000s linear infinite;
+        }
+        .m{
+            width: 4px;
+            height: 120px;
+            background-color: red;
+            position: absolute;
+            top: 30px;
+            left: 50%;
+            transform-origin: bottom;
+            animation: rotate 3600s linear infinite;
+        }
+        .s{
+            width: 2px;
+            height: 130px;
+            background-color: blue;
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform-origin: bottom;
+            animation: rotate 60s steps(60) infinite;
+        }
+
+        @keyframes rotate{
+            from{
+               transform: rotate(0deg);
+            }
+            to{
+               transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="miao">
+            <span class="public one"></span>
+            <span class="public two"></span>
+            <span class="public three"></span>
+            <span class="public four"></span>
+            <span class="public five"></span>
+            <span class="public six"></span>
+        </div>
+        <div class="gai">  
+        </div>
+        <div class="center">
+            <div class="h"></div>
+            <div class="m"></div>
+            <div class="s"></div>
+        </div>
+    </div>
+</body>
+</html>

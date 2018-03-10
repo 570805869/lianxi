@@ -1,0 +1,56 @@
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+
+li{
+    list-style-type: none;
+}
+
+body,ul,p,h1,h2,h3,h4,h5,h6,dl{
+    margin: 0;
+    padding: 0;
+}
+
+img,input{
+    vertical-align: middle;
+    border: 0 none;
+    padding: 0;
+    outline-style: none;
+}
+
+.clearfix::after{
+    content: "";
+    height: 0;
+    width: 0;
+    line-height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix{
+    zoom:1;
+}
+.w{
+    width: 1228px;
+    margin: 0 auto;
+}
+
+/*字体图标*/
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?ybsecf');
+    src:  url('../fonts/icomoon.eot?ybsecf#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?ybsecf') format('truetype'),
+    url('../fonts/icomoon.woff?ybsecf') format('woff'),
+    url('../fonts/icomoon.svg?ybsecf#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.icon{
+    font-family: 'icomoon';
+    font-style: normal;
+}

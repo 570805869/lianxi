@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    div {
+      /*
+      
+       要想显示小三角：
+        ① 盒子一定是一个行内块级元素
+        ② 不要给盒子宽度width和高度height
+        ③ 直接写四个边框就可以，这四个边框将以三角的方式拼凑成一个盒子
+        ④ 给其中一个边框方向设定不同的颜色。
+
+
+       */
+
+      border:5px solid #fff;
+      display: inline-block;
+
+      border-bottom-color: #000;
+      border-left-color: red;
+      border-top-color: gold;
+      border-right-color: pink;
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>

@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.top{
+    width: 100%;
+    display: flex;
+}
+.top a{
+    flex: 1;
+}
+.top a img{
+    width: 100%;
+}
+.banner{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.banner .public{
+    height: 90px;
+    background-color: pink;
+    border-radius: 10px;
+    flex: 1;
+    margin: 5px;
+    display: flex;
+}
+.banner .public>div{
+    flex: 1;
+    border-right: 1px solid white;
+}
+.one div:last-child{
+    border: 0 none;
+}
+.one .a2 .top{
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+.one .a2 .bot{
+    text-align: center;
+    line-height: 45px;
+}
+.one .a3 .top{
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+.one .a3 .bot{
+    text-align: center;
+    line-height: 45px;
+}
+
+.banner .two {
+    background-color: lightblue;
+}
+.a2 .top{
+    height: 44px;
+    line-height: 44px;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+.two .a2 .bot{
+    line-height: 45px;
+    text-align: center;
+}
+.a3 .top{
+    height: 44px;
+    line-height: 44px;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+.two .a3 .bot{
+    line-height: 45px;
+    text-align: center;
+}
+
+.banner .three {
+    background-color: hotpink;
+}
+.a2 .top{
+    height: 44px;
+    line-height: 44px;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+.three .a2 .bot{
+    line-height: 45px;
+    text-align: center;
+}
+.a3 .top a{
+    display: block;
+    height: 44px;
+    line-height: 44px;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+.three .a3 .bot{
+    line-height: 45px;
+    text-align: center;
+}
+
+.banner .four {
+    background-color: orange;
+}
+.four .a1 .top{
+    height: 44px;
+    line-height: 44px;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+.four .a1 .bot{
+    line-height: 45px;
+    text-align: center;
+}
+.four .a2 .top{
+    height: 44px;
+    line-height: 44px;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+.four .a2 .bot{
+    line-height: 45px;
+    text-align: center;
+}
+.four .a3 .top{
+    height: 44px;
+    line-height: 44px;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+.four .a3 .bot{
+    line-height: 45px;
+    text-align: center;
+}
+/*图片部分*/
+.pic{
+    width: 100%;
+    display: flex;
+}
+.pic a{
+    flex: 1;
+    margin: 5px;
+}
+.pic img{
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    display: flex;
+}
+.footer a{
+    flex: 1;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    border-top: 1px solid green;
+}

@@ -1,0 +1,264 @@
+/*
+  首页样式
+ */
+.banner {
+  height: 480px;
+  background: url(../images/dn.png) no-repeat center top;
+  margin-top: 1px;
+}
+
+.banner .w {
+  height: 480px;
+}
+/*第一列*/
+.banner .col1 {
+  width: 190px;
+  height: 480px;
+  background: #fff;
+}
+.banner .col1 ul {
+  margin-top: 15px;
+}
+.banner .col1 li {
+  line-height: 28px;
+   padding-left: 18px;
+}
+/*留下来给未来的js功能使用*/
+.banner .col1 .active {
+  background: #ccc;
+}
+
+
+/*第二列*/
+.banner .col2 {
+  width: 590px;
+  height: 470px;
+  margin-left:10px;
+  padding-top: 10px;
+  position: relative;
+}
+
+.banner .col2 .lunbo li {
+  display: none;
+}
+.banner .col2 .control {
+  position: absolute;
+  left: 46px;
+  bottom: 20px;
+}
+.banner .col2 .control li {
+  width: 18px;
+  height: 18px;
+  background: rgba(255,255,255,0);
+  border-radius: 50%;
+  float: left;
+  position: relative;
+}
+.banner .col2 .control li:after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  border:2px solid #ccc;
+  left: 50%;
+  margin-left: -5px;
+  top:50%;
+  margin-top: -5px;
+  border-radius: 50%;
+}
+
+/*小点按钮的第二中状态*/
+.banner .col2 .control .active {
+  background: rgba(255,255,255,0.5);
+}
+
+.banner .col2 .control .active:after {
+  border:none;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+}
+
+/*未来哪个轮播项显示出来就调用这个类选择器*/
+.banner .col2 .lunbo .active {
+  display:block;
+}
+
+/*第三列*/
+.banner .col3 {
+  width: 190px;
+  height: 480px;
+  margin-left:10px;
+}
+
+.banner .col3 li {
+  margin-top: 10px;
+}
+
+/*第四列*/
+.banner .col4 {
+  width: 190px;
+  height: 470px;
+  background: #fff;
+  margin-left:10px;
+  margin-top: 10px;
+  position: relative;
+}
+
+/* 用户头像模块 */
+
+.banner .col4 .headImg {
+  width: 82px;
+  height: 86px;
+  position: absolute;
+  left: 50%;
+  margin-left: -41px;
+  top:-10px;
+}
+
+.banner .col4 .headImg img {
+  width: 65px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  margin-left: -33px;
+}
+.banner .col4 .headImg span {
+  width: 82px;
+  height: 86px;
+  position: absolute;
+  background:url(../images/tx.png) no-repeat -10px -8px;
+  left: 0;
+  top:-9px;
+}
+/*登录状态*/
+.banner .col4 .dlzt {
+  margin-top: 72px;
+  text-align: center;
+}
+/* 用户利益模块 */
+.banner .col4 .liyi {
+  padding-left: 20px;
+  padding-top: 15px;
+  
+}
+.banner .col4 .liyi span {
+  float: left;
+  height: 25px;
+  border-radius: 13px;
+  box-shadow: 5px 5px 30px;
+
+}
+.banner .col4 .liyi span a {
+  display: block;
+  line-height: 25px;
+  padding:0 10px;
+  border-radius: 13px;
+
+
+}
+/* 新人利益 */
+.banner .col4 .liyi .xrfl {
+  margin-right: 10px;
+}
+.banner .col4 .liyi .xrfl a {
+  color:red;
+}
+/* PLUS会员 */
+.banner .col4 .liyi .hy {
+  background: #363634;
+}
+
+.banner .col4 .liyi .hy a {
+  color:#e5d790;
+}
+
+.banner .col4 .liyi a:hover {
+  color: #fff;
+  background-color: red;
+}
+
+/* 新闻模块 */
+.banner .col4 .news .control {
+  padding:0 12px;
+  margin-top: 30px;
+  position: relative;
+  height: 25px;
+}
+
+.banner .col4 .news .control span,.banner .col4 .news .control a {
+  height: 18px;
+  line-height: 18px;
+}
+
+.banner .col4 .news .control .gonggao {
+  border-left: 1px solid #DFE0E1;
+  margin-left: 15px;
+  padding-left: 15px;
+
+}
+
+.banner .col4 .news .control em {
+  width: 28px;
+  height: 2px;
+  background-color: #db192b;
+  position: absolute;
+  left: 12px;
+  bottom: 5px;
+}
+.banner .col4 .news .items {
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.banner .col4 .news .items li {
+  line-height: 22px;
+}
+
+/* 服务模块 */
+.banner .col4 .service {
+  padding:0 15px;
+  margin-top: 15px;
+}
+/* 
+  情况：父子，子元素是块级元素，若子元素不设置宽度，默认就是父元素的宽度。若父元素加padding时，子元素会自动变化width适应父元素的区域
+ */
+.banner .col4 .service ul {
+  border-top: 1px solid red;
+  padding-top: 10px;
+}
+.banner .col4 .service ul li {
+  width: 40px;
+  height: 29px;
+  float: left;
+  padding-top: 16px;
+  position: relative;
+}
+/* 设置图标span的大小 */
+.banner .col4 .service ul li a {
+  width: 24px;
+  height: 24px;
+  display: block;
+  margin:0 auto;
+  background: url(../images/service.png) no-repeat -29px -42px;
+
+}
+
+.banner .col4 .service ul li span {
+  width: 12px;
+  height: 16px;
+  background-color: red;
+  position: absolute;
+  top:0;
+  right: 0;
+  line-height: 12px;
+  color:#fff;
+}
+/* 小三角 */
+.banner .col4 .service ul li span em {
+  border-left: 6px solid red;
+  border-right: 6px solid red;
+  border-top: 1px solid red;
+  border-bottom: 3px solid #fff;
+  position: absolute;
+}

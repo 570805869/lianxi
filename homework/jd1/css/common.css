@@ -1,0 +1,359 @@
+/*
+  顶部、头部、和底部公共的样式
+ */
+
+/*京东顶部样式 start*/
+.jd-event {
+  height: 80px;
+  background: #AF150B;
+}
+
+.jd-event .inner {
+  position: relative;
+}
+
+.jd-event .inner .nhj {
+  position: absolute;
+  top:0;
+  left: 0;
+}
+
+.jd-event .inner i {
+  width: 20px;
+  height: 20px;
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  top:5px;
+  right: 0;
+  color:#fff;
+  line-height: 20px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+/*京东顶部样式 end  */
+
+/*京东简短菜单 start*/
+.shortcut {
+  height: 30px;
+  background: #e3e4e5;
+  border-bottom: 1px solid #ddd;
+}
+
+.shortcut .fl .top {
+  line-height: 30px;
+}
+.shortcut .fl .top i {
+  color: red;
+}
+.shortcut .fl {
+  margin-left: 210px;
+}
+
+.shortcut .fr li {
+  float: left;
+  line-height: 30px;
+  position: relative;
+}
+
+.shortcut .fr .spacer {
+  height: 10px;
+  border-left: 1px solid #ccc;
+  margin-top: 11px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.shortcut .fr li span {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  background:url(../images/sprite.head.png) -195px -45px;
+  left: 50%;
+  margin-left: -30px;
+}
+
+.shortcut .fr .last::after {
+  content: "";
+  border:5px solid #e3e4e5;
+  position: absolute;
+  border-bottom-color: #fff;
+  left:50%;
+  margin-left: -5px;
+  bottom: 0;
+  /*【绝对定位】的元素会自动变成行内块级元素*/
+}
+/*京东简短菜单 end  */
+
+
+/*京东头部样式 start*/
+.header {
+  height: 140px;
+}
+.header .inner {
+  position: relative;
+}
+/*logo*/
+.header .logo {
+  width: 190px;
+  height: 170px;
+  position: absolute;
+  top:-30px;
+}
+.header .w {
+  height: 170px;
+}
+.header .logo a {
+  width: 190px;
+  height: 170px;
+  display: inline-block;
+  background: url(../images/sprite.head.png);
+  text-indent: -999px;
+  overflow: hidden;
+}
+
+/*搜索模块*/
+.header .search {
+  width: 550px;
+  height: 35px;
+  background: blue;
+  position: absolute;
+  top:25px;
+  left: 320px;
+}
+
+.header .search input {
+  width: 495px;
+  height: 35px;
+  padding-left: 5px;
+}
+
+.header .search button {
+  width: 50px;
+  height: 35px;
+  background: red;
+  font-size: 18px;
+  color:#fff;
+
+}
+.header .search span {
+  width: 19px;
+  height: 15px;
+  position: absolute;
+  top:10px;
+  right: 65px;
+  background: url(../images/sprite-photo-search.png);
+  cursor: pointer;
+}
+.header .search span:hover {
+  background-position: -30px 0;
+}
+
+/*购物车模块*/
+.car {
+  width: 188px;
+  height: 33px;
+  background: #fff;
+  border:1px solid #e3e4e5;
+  right: 98px;
+  top:25px;
+  position: absolute;
+  text-align: center;
+  line-height: 33px;
+  color:red;
+}
+
+.car span {
+  position: absolute;
+  /*width: 15px;*/
+  /*最小宽度就是宽度不能比15小，可以比15大，比15大多少，由内容决定*/
+  min-width: 9px;
+  height: 15px;
+  background: red;
+  color: #fff;
+  line-height: 15px;
+  border-radius: 7px;
+  padding:0 3px;
+}
+
+.car a {
+  color:red;
+}
+
+/*热词*/
+.header .hotwords {
+  width: 550px;
+  height: 30px;
+  position: absolute;
+  top:61px;
+  left: 320px;
+  line-height: 30px;
+}
+
+.header .hotwords li {
+  float: left;
+  margin-right:10px;
+}
+
+.header .hotwords .first a {
+  color:red;
+}
+
+/*导航*/
+.header .nav {
+  width: 734px;
+  height: 25px;
+  position: absolute;
+  top:106px;
+  left: 230px;
+}
+
+.header .nav li {
+  float: left;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+  margin-right: 30px;
+}
+
+.header .nav .spacer {
+  height: 10px;
+  border-left: 1px solid #ccc;
+  margin:8px 20px 0 20px;
+}
+
+.header .nav .last {
+  margin-right: 0;
+}
+
+/*财宝*/
+.header .treasure {
+  width: 190px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  top: 90px;
+}
+/*京东头部样式 end  */
+
+
+/*京东底部样式 start*/
+.footer {
+  height: 500px;
+}
+
+/*服务模块*/
+.footer .service {
+  height: 110px;
+  border-bottom: 1px solid #dedede;
+}
+.footer .service ul {
+  margin-top:38px;
+}
+.footer .service li {
+  float: left;
+  /*宽度剩余法控制间距 */
+  width: 297px;
+
+}
+
+.footer .service li div {
+  margin-left: 36px;
+}
+
+.footer .service li h5 {
+  width: 36px;
+  height: 42px;
+  background: url(../images/dkhs.png);
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+.footer .service li p {
+  line-height: 42px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.footer .service li .kuai {
+  background-position:0 -43px; 
+}
+.footer .service li .hao {
+  background-position:0 -86px; 
+}
+.footer .service li .sheng {
+  background-position:0 -129px; 
+}
+
+/*帮助模块*/
+.footer .help {
+  height: 200px;
+}
+
+.footer .help .w {
+  height: 200px;
+  border-bottom: 1px solid #dedede;
+}
+
+.footer .help dl {
+  float: left;
+  /*宽度剩余法控制dl之间的间距*/
+  width: 198px;
+}
+
+.footer .help dl dt {
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 20px;
+  height: 30px;
+}
+
+.footer .help dl dd {
+  height: 22px;
+}
+
+.footer .help .last {
+  
+  text-align:center;
+  height: 150px;
+  background: url(../images/dt.png) no-repeat 0 18px;
+}
+.footer .help .last p {
+  width: 180px;
+  text-align: left;
+}
+
+.footer .help .last a {
+  float: right;
+}
+/*版权模块*/
+.footer .copyright {
+  text-align: center;
+}
+
+.footer .copyright span {
+  margin:0 10px;
+}
+
+.footer .copyright .links {
+  line-height: 46px;
+}
+
+.footer .copyright .info {
+  line-height: 22px;
+}
+.footer .copyright ul {
+  width: 618px;
+  margin:12px auto;
+}
+.footer .copyright ul li {
+  float: left;
+}
+.footer .copyright ul a {
+  width: 103px;
+  height: 32px;
+  display: inline-block;
+  background: url(../images/dt.png) no-repeat 0 -151px;
+}
+/*京东底部样式 end  */

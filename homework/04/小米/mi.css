@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav li{
+    list-style-type: none;
+    height: 25px;
+    margin-top: 5px;
+
+}
+.nav{
+    width: 232px;
+    height: 399px;
+    background-color: #575652;
+    margin: 20px auto;
+    opacity: 50%;
+    overflow: hidden;
+
+}
+
+.nav a{
+        height: 25px;
+        line-height: 25px;
+        color: white;
+        text-decoration: none;
+        margin-left: 33px;
+        margin-top: 12px;
+}
+li:hover{
+    background-color: #0899e4;
+    width: 300px;
+}

@@ -1,0 +1,345 @@
+/*顶部导航*/
+body{
+    background-color: #f3f5f7;
+}
+.top{
+    height: 100px;
+    width: 100%;
+    background-color: #f3f5f7;
+    vertical-align: middle;
+}
+
+/*图片*/
+.top .pic{
+    float: left;
+    margin-top: 30px;
+}
+/*导航列表*/
+.top .nav{
+    float: left;
+    margin-left: 75px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.nav li{
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+.nav a{
+    display: block;
+    padding: 10px 0;
+    color: black;
+}
+.nav li a:hover{
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+.top .search{
+    width: 200px;
+    height: 20px;
+    float: left;
+    margin-top: 28px;
+    margin-left: 66px;
+    position: relative;
+}
+.search .search_t{
+    width: 413px;
+    height: 40px;
+    border: 1px solid #4d8caf;
+    border-right: none;
+}
+.search .btn{
+    width: 51px;
+    height: 41px;
+    background: #02a3fe url(../img/search.png)  no-repeat center;
+    position: absolute;
+    left: 363px;
+    top: 0px;
+}
+.top .mine{
+    width: 250px;
+    height: 50px;
+     float: right;
+    margin-top: 28px;
+}
+.top .left{
+    line-height: 50px;
+}
+.top .middle{
+    margin-left: 10px;
+    margin-bottom: 12px;
+    margin-right: 15px; 
+}
+.top .right{
+    display: block;
+    margin-bottom: 8px;
+    float: right;
+    margin-top: 6px;
+    margin-right: 14px;
+}
+
+
+/*广告部分*/
+.banner{
+    width: 100%;
+    height: 420px;
+    background-color: #1c036b;
+}
+.banner .ban_con{
+    /*width: 100%;*/
+    height: 420px;
+    background-repeat: no-repeat;
+    background-image: url(../img/banner.png);
+    background-position: center;
+    position: relative;
+}
+
+/*左边的列表*/
+.banner .list{    
+    width: 200px;
+    height: 420px;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+}
+.banner .list li{
+    display: block;
+    height: 45px;
+    margin-left: 20px;
+
+}
+.banner .list a{
+    display: block;
+    font-size: 15px;
+    color: white;
+    line-height: 45px;
+}
+
+.banner .list li:hover a{
+    color: #00a4ff;
+}
+
+/*中间的点点*/
+.banner .table{
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    left:50%;
+    margin-left:-100px; 
+    bottom: 1px;
+}
+
+.banner .table a{
+    display: block;
+    float: left;
+    margin-right: 20px;
+    width: 14px;
+    height: 14px;
+    background-color: rgba(255,254,255,0.5);
+    border-radius: 50%;
+}
+.banner .table .spec_t{
+    width: 20px;
+    height: 14px;
+    border-radius: 10px;
+}
+
+.banner .table a:hover{
+    background-color: red;
+}
+
+/*右边的表格*/
+.biaoge{
+    width: 228px;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    top: 50px; 
+}
+
+.biaoge .title{
+    height: 48px;
+    line-height: 48px;    
+    background-color: #9bceeb;
+}
+.biaoge .title span{
+    display: block;
+    color: white;
+    margin-left: 68px;
+}
+
+.biaoge .cont_mi{
+    width: 194px;
+    height: 45px;
+    margin-left: 17px;
+    margin-top: 34px;
+    border-bottom: 1px solid gray;
+}
+.biaoge .cont_mid{
+    padding-top: 10px;
+    width: 194px;
+    height: 45px;
+    margin-left: 17px;
+}
+.biaoge .one{
+    font-size: 14px;
+    color: black;
+}
+.biaoge .two{
+    font-size: 12px;
+    color: #adb29e;
+}
+.biaoge .spec_mid{
+    border-bottom: 1px gray solid;
+}
+
+.all{
+    width: 198px;
+    height: 38px;
+    border: 1px solid #48d8d8;
+    margin-left: 18px;
+}
+.all a{
+    display: block;
+    line-height: 38px;
+    margin-left: 67px;
+}
+.all a:hover{
+    color: #48d8d8;
+}
+
+/*中间导航部分*/
+.middle_nav{
+    height: 60px;
+    border: 1px;
+    margin-top: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 10px #d6d6d6;
+}
+.spe_w{
+    color: #81d1ff;
+}
+.middle_nav .left{
+    width: 900px;
+    height: 60px;
+    margin-left: 34px;
+    float: left;
+}
+.left li{
+    display: block;
+    float: left;
+    margin-right: 30px;
+    line-height: 60px;
+}
+.left .spec_li{
+    color: #cccccc;
+}
+.middle_nav .right{
+    width: 70px;
+    height: 60px;
+    line-height: 60px;
+    float: right;
+    color: #81d1ff;
+    margin-right: 10px;
+}
+/*中间导航下的小导航*/
+.middle_dow{
+    height: 60px;
+    margin-top: 20px;
+    position: relative;
+}
+.middle_dow .leftt{
+    display: block;
+    float: left;
+    line-height: 60px;
+}
+.middle_dow .rightt{
+    display: block;
+    float: right;
+    line-height: 60px;
+}
+.middle_dow, a:hover{
+    color: #81d1ff;
+}
+
+/*推荐部分*/
+.reco{
+    height: 556px;
+}
+.reco li{
+    display: block;
+    float: left;
+    width: 232px;
+    height: 270px;
+    background-color: white;
+    margin-right: 8px;
+    margin-bottom: 16px;
+}
+.reco li a{
+    display: block;
+    font-size: 15px;
+    margin-left: 25px;
+    margin-top: 29px;
+}
+.rect a:hover{
+    color: #81d1ff;
+}
+
+.rect li p{
+    padding: 0 25px;
+}
+
+/*下面的推荐*/
+.middle_dow .list{
+    /*width: 200px;*/
+    height: 60px;
+    /*background-color: green;*/
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+}
+.middle_dow .list li{
+    display: block;
+    float: left;
+    line-height: 60px;
+    margin-right: 70px;
+}
+
+/*结尾部分*/
+.footer{
+    height: 392px;
+    position: relative;
+}
+.footer .footer_l{
+    width: 229px;
+    height: 392px;
+    float: left;
+}
+.footer .footer_t{
+    float: left;
+    margin-left: 3px;
+}
+
+.footer .footer_r{
+    width: 966px;
+    height: 269px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+ .footer li{
+    display: block;
+    float: left;
+    width: 232px;
+    height: 270px;
+    background-color: white;
+    margin-right: 8px;
+    margin-bottom: 16px;
+}
+
+
+
+
+
+

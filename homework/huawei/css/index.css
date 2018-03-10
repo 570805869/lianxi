@@ -1,0 +1,742 @@
+/*顶部部分*/
+.top{
+    height: 28px;
+    background-color: #222222;
+}
+.top .w{
+    height: 28px;
+}
+.top .w .jt{
+    float: left;
+    width: 70px;
+    height: 28px;
+}
+.top .w .jt span{
+    display: block;
+    float: left;
+    font-size: 11px;
+    color: white;
+    line-height: 28px;
+}
+.top .w .jt i{
+    display: block;
+    float: right;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    line-height: 28px;
+}
+.top .w .login{
+    float: right;
+    width: 222px;
+    height: 28px;
+}
+.top .w .login .one{
+    color: white;
+    float: left;
+    display: block;
+    line-height: 28px;
+    margin-left: 14px;
+}
+.top .w .login span{
+    display: block;
+    float: left;
+    color: white;
+    line-height: 28px;
+    font-size: 11px;
+    margin-left: 10px;
+}
+.top .w .login .two{
+    display: block;
+    float: left;
+    color: white;
+    font-size: 14px;
+    line-height: 28px;
+    margin-left: 10px;
+    font-weight: 700;
+}
+.top .w .login em{
+    width: 1px;
+    height: 22px;
+    background-color: #949494;
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+.top .w .login .three{
+    color: white;
+    font-size: 14px;
+    display: block;
+    float: left;
+    line-height: 28px;
+    margin-left: 12px;
+}
+.top .w .login p{
+    display: block;
+    float: left;
+    color: white;
+    line-height: 28px;
+    font-weight: normal;
+    font-size: 12px;
+    margin-left: 6px;
+}
+/*导航部分*/
+.nav{
+    height: 74px;
+    width: 100%;
+}
+.nav .w{
+    height: 74px;
+}
+.nav .w .logo{
+    display: block;
+    width: 133px;
+    height: 30px;
+    float: left;
+    margin-top: 19px;
+}
+.nav .w .logo h1{
+    text-indent: -9999em;
+}
+.nav .w .logo a{
+    display: block;
+    width: 133px;
+    height: 30px;
+    float: left;
+    background-image: url(../images/huawei_logo.png);
+    line-height: 30px;
+}
+.nav .w .left{
+    display: block;
+    float: left;
+    height: 74px;
+    width: 490px;
+    margin-left: 60px;
+}
+.nav .w .left li{
+    display: block;
+    float: left;
+    width: 238px;
+    height: 43px;
+    margin-top: 15px;
+}
+.nav .w .left .four{
+    color: #282828;
+    display: block;
+    float: left;
+    line-height: 43px;
+}
+.nav .w .left span{
+    display: block;
+    float: left;
+    font-size: 18px;
+    color: #282828;
+    line-height: 43px;
+    margin-left: 20px;
+}
+.nav .w .left .five{
+    color: white;
+    font-size: 14px;
+    color: #6b6868;
+    font-weight: 700;
+    display: block;
+    float: left;
+    line-height: 43px;
+    margin-left: 10px;
+}
+.nav .w .left .six{
+    color: #282828;
+    display: block;
+    float: left;
+    line-height: 43px;
+    margin-left: 1px;
+    font-size: 20px;
+}
+
+.nav .w .right{
+    width: 270px;
+    height: 50px;
+    float: left;
+    border-left: 2px solid #d4d4d4;
+    margin-top: 10px;
+}
+.nav .w .right li{
+    display: block;
+    float: left;
+    width: 132px;
+    height: 17px;
+    margin-top: 6px;
+}
+.nav .w .right span{
+    display: block;
+    float: left;
+    font-size: 18px;
+    color: #282828;
+    line-height: 43px;
+    margin-left: 20px;
+}
+.nav .w .right .five{
+    color: white;
+    font-size: 14px;
+    color: #6b6868;
+    font-weight: 700;
+    display: block;
+    float: left;
+    line-height: 43px;
+    margin-left: 10px;
+}
+.nav .w .sear{
+    width: 26px;
+    height: 25px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+.nav .w .sear .seven{
+    color: #acacac;
+    font-size: 25px;
+}
+.banner{
+    width: 100%;
+    height: 558px;
+    background-color: #efefef;
+    background-image: url(../images/BG-Hero-Banner-vmall.jpg);
+    background-position: center;
+    margin-top: 0;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner img{
+    display: block;
+    position: absolute;
+    width: 545px;
+    height: 158px;
+    left: 50%;
+    margin-left: -272px;
+    margin-top: 137px;
+}
+.banner span{
+    display: block;
+    position: absolute;
+    color: #ffffd7;
+    font-size: 30px;
+    font-weight: 700;
+    left: 50%;
+    margin-left: -190px;
+    margin-top: 308px;
+}
+.banner p{
+    position: absolute;
+    color: white;
+    left: 50%;
+    margin-top: 364px;
+    margin-left: -30px;
+    font-size: 21px;
+}
+.banner p a{
+    color: white;
+}
+.who{
+    width: 1106px;
+    height: 209px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    background-color: #fff;
+    margin-left: -553px;
+    margin-top: -98px;
+    box-shadow: 3px 3px 10px #e8e8e8;
+}
+.who .user{
+    width: 1027px;
+    height: 143px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.who .user li{
+    display: block;
+    float: left;
+    width: 341px;
+    height: 143px;
+    border-right: 1px solid #d4d4d4;
+}
+.who .user .spec_li{
+    border-right: 0px;
+}
+.who .user li img{
+    display: block;
+    float: left;
+    width: 64px;
+    height: 103px;
+    margin-top: 20px;
+    margin-left: 27px;
+}
+.who .user li h3{
+    display: block;
+    float: left;
+    color: black;
+    margin-top: 18px;
+    margin-left: 16px;
+}
+.who .user li .des{
+    display: block;
+    width: 167px;
+    font-size: 15px;
+    margin-left: -74px;
+    margin-top: 50px;
+    float: left;
+    color: #808080;
+}
+.mate{
+    float: left;
+    width: 631px;
+    height: 450px;
+    background: linear-gradient(#26b6e3,#49c2d9);
+    margin-left: 29px;
+    margin-top: 140px;
+    position: relative;
+}
+.mate img{
+    display: block;
+    width: 263px;
+    height: 39px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.mate p{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.mate .more{
+    display: block;
+    width: 133px;
+    height: 22px;
+    margin-left: 225px;
+    color: white;
+    font-size: 24px;
+    margin-top: 25px;
+}
+.dt{
+    width: 264px;
+    height: 540px;
+    position: absolute;
+    margin-top: 192px;
+    margin-left: 450px;
+}
+.sygs{
+    width: 455px;
+    height: 644px;
+    background-color: #dde6ed;
+    margin-top: 140px;
+    margin-left: 812px;
+    border-radius: 10px;
+}
+.sygs img{
+    display: block;
+    width: 100%;
+    height: 242px;
+}
+.sygs span{
+    display: block;
+    width: 57px;
+    height: 12px;
+    font-size: 12px;
+    color: #808080;
+    margin-top: 46px;
+    margin-left: 60px;
+}
+.sygs h2{
+    width: 326px;
+    height: 88px;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 36px;
+}
+.sygs p{
+    width: 326px;
+    margin-left: 60px;
+    margin-top: 23px;
+    font-size: 16px;
+}
+.sygs .more{
+    display: block;
+    width: 133px;
+    height: 21px;
+    font-size: 22px;
+    color: #222222;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+/*第二部分*/
+.col2{
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+    position: relative;
+}
+.col2 .new{
+    width: 1048px;
+    height: 500px;
+    background-color: #dde6ed;
+    margin-left: 29px;
+    margin-top: 300px;
+    overflow: hidden;
+}
+.col2 .new span{
+    display: block;
+    font-size: 12px;
+    width: 60px;
+    height: 12px;
+    color: #808080;
+    margin-top: 190px;
+    margin-left: 160px;
+}
+.col2 .new h2{
+    font-size: 37px;
+    margin-left: 160px;
+    margin-top: 8px;
+}
+.col2 .new p{
+    font-size: 16px;
+    margin-top: 22px;
+    margin-left: 160px;
+    width: 518px;
+}
+.col2 .tupian{
+    display: block;
+    width: 636px;
+    height: 360px;
+    position: absolute;
+    top: 0;
+    margin-left: 159px;
+    margin-top: 100px;
+}
+.col2 .fen{
+    width: 360px;
+    height: 306px;
+    position: absolute;
+    background-color: #f66f6a;
+    top: 0;
+    right: 0;
+    margin-right: 150px;
+    margin-top: 380px;
+    border-radius: 5px;
+}
+.col2 .fen ul{
+    display: block;
+    width: 240px;
+    height: 150px;
+    margin-left: 60px;
+    margin-top: 80px;
+}
+.col2 .fen li{
+    display: block;
+    margin-bottom: 40px;
+    width: 240px;
+}
+.col2 .fen li a{
+    display: block;
+    font-size: 21px;
+    color: white;
+}
+.col2 .fen li i{
+    float: right;
+    color: white;
+}
+/*第三部分*/
+.col3{
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/products-huaweicloud-pc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+.col3 img{
+    display: block;
+    width: 374px;
+    height: 201px;
+    margin-left: 197px;
+    margin-top: 248px;
+}
+.col3 p{
+    color: white;
+    font-size: 22px;
+    margin-left: 197px;
+    margin-top: 28px;
+}
+/*第四部分*/
+.col4{
+    width: 100%;
+    height: 760px;
+    overflow: hidden;
+}
+.col4 .w .col4_nav{
+    width: 100%;
+    height: 42px;
+    margin-top: 100px;
+}
+.col4 .w .col4_nav h2{
+    display: block;
+    font-size: 37px;
+    float: left;
+    line-height: 42px;
+    color: #222222;
+}
+.col4 .w .col4_nav span{
+    display: block;
+    float: right;
+    font-size: 24px;
+    color: #222222;
+    line-height: 42px;
+}
+.col4 .w .col4_cont{
+    width: 100%;
+    height: 570px;
+    overflow: hidden;
+}
+.col4 .w .col4_cont ul{
+    width: 1063px;
+    height: 466px;
+    display: block;
+    margin-top: 58px;
+    margin-left: 21px;
+}
+.col4 .w .col4_cont li{
+    width: 311px;
+    height: 466px;
+    float: left;
+    display: block;
+    background-color: #dde6ed;
+    margin-right: 65px;
+    border-radius: 5px;
+}
+.col4 .w .col4_cont .spec_li{
+    margin-right: 0;
+}
+.col4 .w .col4_cont li img{
+    display: block;
+    width: 314px;
+    height: 180px;
+    border-radius: 5px;
+}
+.col4 .w .col4_cont li span{
+    display: block;
+    color: #808080;
+    margin-top: 10px;
+    font-size: 12px;
+    margin-left: 40px;
+}
+.col4 .w .col4_cont li h4{
+    width: 228px;
+    margin-left: 40px;
+    color: #282828;
+    margin-top: 13px;
+    font-size: 22px;
+}
+.col4 .w .col4_cont li p{
+    width: 233px;
+    margin-left: 40px;
+    margin-top: 10px;
+    color: #282828;
+}
+.col4 .w .col4_cont li h3{
+    font-size: 21px;
+    color: #222222;
+    margin-left: 40px;
+    margin-top: 50px;
+    font-weight: 400;
+}
+/*第五部分*/
+.col5{
+    width: 100%;
+    height: 686px;
+    /*background-color: blue;*/
+}
+.col5 .w .col5_nav{
+    width: 100%;
+    height: 40px;
+}
+.col5 .w .col5_nav h2{
+    display: block;
+    float: left;
+    font-size: 37px;
+    line-height: 40px;
+}
+.col5 .w .col5_nav span{
+    display: block;
+    float: right;
+    font-size: 22px;
+    line-height: 40px;
+}
+.col5 .w .col5_cont{
+    width: 985px;
+    height: 551px;
+    margin-top: 60px;
+}
+.col5 .w .col5_cont .left{
+    width: 409px;
+    height: 546px;
+    float: left;
+    background-color: #dde6ed;
+    border-radius: 5px;
+}
+.col5 .w .col5_cont .left img{
+    display: block;
+    height: 272px;
+    border-radius: 5px 5px 0 0;
+}
+.col5 .w .col5_cont .left span{
+    font-size: 15px;
+    display: block;
+    color: #808080;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+.col5 .w .col5_cont .left h4{
+    width: 320px;
+    font-size: 23px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.col5 .w .col5_cont .left a{
+    display: block;
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 40px;
+    margin-top: 80px;
+    color: #272222;
+}
+.col5 .w .col5_cont .right{
+    width: 439px;
+    height: 546px;
+    float: right;
+}
+.col5 .w .col5_cont .right li{
+    display: block;
+    width: 100%;
+    height: 76px;
+    margin-bottom: 70px;
+}
+.col5 .w .col5_cont .right span{
+    display: block;
+    color: #8f808f;
+}
+.col5 .w .col5_cont .right a{
+    display: block;
+    width: 429px;
+    height: 76px;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #282828;
+}
+/*底部*/
+.footer{
+    width: 100%;
+    height: 644px;
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+.footer .w{
+    overflow: hidden;
+}
+.footer .w dl{
+    display: block;
+    width: 113px;
+    height: 316px;
+    margin-top: 60px;
+    float: left;
+    margin-right: 160px;
+}
+.footer .w .spec_dl{
+    margin-right: 0;
+}
+.footer .w dl dt{
+    width: 100%;
+    height: 23px;
+    display: block;
+}
+.footer .w dl dt a{
+    display: block;
+    color: #282828;
+    float: left;
+    font-weight: 700;
+    font-size: 22px;
+}
+.footer .w dl dt a:hover{
+    text-decoration: underline;
+}
+.footer .w dl dt i{
+    display: block;
+    color: #282828;
+    float: right;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 23px;
+}
+.footer .w dd{
+    margin-left: 0;
+    display: block;
+    margin-top: 20px;
+}
+.footer .w .xgwz{
+    width: 100%;
+    height: 113px;
+    margin-top: 400px;
+}
+.footer .w .xgwz h4{
+    font-size: 22px;
+}
+.footer .w .xgwz ul li{
+    display: block;
+    float: left;
+    margin-right: 210px;
+    margin-top: 26px;
+}
+.footer .w .xgwz ul li a{
+    color: #282828;
+    font-size: 16px;
+}
+.footer .w .xgwz ul li a:hover{
+    text-decoration: underline;
+}
+/*结束部分*/
+.end{
+    width: 100%;
+    height: 40px;
+    background-color: #222222;
+}
+.end .w span{
+    display: block;
+    color: white;
+    float: left;
+    line-height: 40px;
+    font-size: 12px;
+}
+.end .w a{
+    display: block;
+    float: left;
+    color: white;
+    line-height: 40px;
+    margin-left: 16px;
+}
+.end .w a:hover{
+    text-decoration: underline;
+}
+.end .w ul{
+    display: block;
+    float: right;
+}
+.end .w ul li{
+    display: block;
+    float: left;
+    margin-right: 16px;
+    line-height: 40px;
+    color: white;
+    font-size: 12px;
+}
